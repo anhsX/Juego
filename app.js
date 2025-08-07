@@ -30,8 +30,6 @@ function verificarIntento(){
         
 function generarNumeroSecreto(tope){ 
     let numeroGenerado= Math.floor(Math.random()*tope)+1;
-    console.log(numeroGenerado);
-    console.log(listaNumeros);
 
     if (listaNumeros.length == tope) {
         asignarTextoElemento('p', 'No quedan numeros por probar');
