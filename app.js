@@ -65,3 +65,4 @@ function reiniciarJuego(){
 
 
 condicionesInciales();
+alert ("Hola");
